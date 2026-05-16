@@ -59,7 +59,29 @@ When both LDRs receive equal light intensity, the motor stops, maintaining the o
 
 
 ## Project Images
-(Add circuit diagrams, hardware setup images, and output photos here)
+
+### Block Diagram
+![Block diagram](images/block-diagram.png)
+
+### Circuit Diagram
+![Circuit Diagram](images/circuit-diagram.png)
+### Functional Block Diagram
+![Functional Block Diagram](images/functional-block-diagram.png)
+
+### Initial Position
+The solar panel remains in its default position when both LDR sensors receive nearly equal sunlight intensity.
+
+![Initial Position](final-output/initial-position.jpg)
+
+### Left Rotation
+When the left LDR receives higher sunlight intensity, the comparator circuit drives the motor to rotate the solar panel towards the left direction.
+
+![Left Rotation](final-output/left-rotation.jpg)
+
+### Right Rotation
+When the right LDR receives higher sunlight intensity, the H-Bridge driver rotates the motor towards the right direction for optimal sunlight alignment.
+
+![Right Rotation](final-output/right-rotation.jpg)
 
 
 ## Author
